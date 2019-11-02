@@ -26,3 +26,5 @@ About MOB of ERA
 We propose to combine ERA with model-based recursive partitioning in a unified framework so as to investigate whether the effects of components on a response variable are different across covariate-dependent subgroups. The proposed method, called MOB-ERA hereinafter, begins by fitting an ERA model to entire observations, producing a single set of the ERA parameter estimates, and then successively inspects whether there are substantial changes in the effects of components on the response variable across covariate-dependent subgroups.
 
 ![An example](mobofERA.PNG)
+
+Example: MOB-ERA for the 2012 NSDUH data. The MOB-ERA trees obtained from (a) the training set and (b) the test set. Node numbers are given at the top of every internal (circle) and terminal (grey box) node. Each internal node corresponds to the selected partitioning covariate and its p-value obtained from the parameter instability test. Each terminal node represents an identified subgroup and provides the number of observations and regression coefficient estimates for the subgroup.
