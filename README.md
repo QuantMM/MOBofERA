@@ -25,4 +25,4 @@ About MOB of ERA
 
 We propose to combine ERA with model-based recursive partitioning in a unified framework so as to investigate whether the effects of components on a response variable are different across covariate-dependent subgroups. The proposed method, called MOB-ERA hereinafter, begins by fitting an ERA model to entire observations, producing a single set of the ERA parameter estimates, and then successively inspects whether there are substantial changes in the effects of components on the response variable across covariate-dependent subgroups.
 
-![An example](https://github.com/generalizedERA/generalizedERA/blob/master/ERAexample.JPG)
+![An example](mobofERA.PNG)
